@@ -14,8 +14,7 @@
 6. Elements
 7. Single Page (Blog Posts, 404 etc.)
 8. Media Queries
-9. Pricing
-10. Updates
+9. Updates
 ------------------------------------------------------------ */
 
 /* ------------------------------------------------------------
@@ -270,8 +269,6 @@ input[type="submit"]:focus {
     opacity: 0;
   }
 }
-
-
 
 /* ------------------------------------------------------------
 4. Header
@@ -848,8 +845,6 @@ textarea.form-control, textarea.form-control:focus {
 /* /Form controls */
 
 
-
-
 /* ------------------------------------------------------------
 6. Elements
 ------------------------------------------------------------ */
@@ -1010,77 +1005,6 @@ textarea.form-control, textarea.form-control:focus {
   margin: 0;
 }
 /* --- End of Info Block with Borders --- */
-
-
-/* --- Testimonials --- */
-/* .testimonial {
-  text-align: center;
-  border: 2px solid #444;
-  border-radius: 20px;
-  margin: 45px 2px 10px;
-  padding: 0 25px 15px 25px;
-}
-
-.testimonial img {
-  max-width: 90px;
-  max-height: 90px;
-  margin: -45px auto 20px;
-  border-radius: 90px;
-  box-shadow: 0px 10px 10px -8px rgba(0,0,0,.22);
-}
-
-.testimonial .text {
-  text-align: left;
-  font-style: italic;
-}
-
-.testimonial .author-info {
-  position: relative;
-  text-align: left;
-  margin-top: 20px;
-}
-
-.testimonial .author-info .icon {
-  content: '';
-  position: absolute;
-  font-size: 30px;
-  right: 0;
-  top: 7px;
-  color: #09aeea;
-  opacity: .5;
-}
-
-.testimonial .author-info .author {
-  margin: 0;
-  font-size: 15px;
-}
-
-.testimonial .author-info .company {
-  color: #a5a6a7;
-  font-size: 13px;
-  font-weight: 300;
-  margin: 0;
-} */
-/* --- End of Testimonials --- */
-
-/* --- Clients --- */
-/* .clients.owl-carousel .client-block {
-  padding: 15px;
-  margin-bottom: 15px;
-}
-
-.client-block {
-  text-align: center;
-  padding: 5px 0;
-  margin-bottom: 30px;
-  opacity: .7;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-} */
-/* --- End of Clients --- */
 
 /* --- Sliders Nav --- */
 .testimonials.owl-carousel .owl-nav,
@@ -1675,173 +1599,6 @@ textarea.form-control, textarea.form-control:focus {
   opacity: 1;
 }
 /* --- End of Portfolio --- */
-
-/* --- Blog --- verwijder*/
-/* .blog-masonry {
-  margin: 0 -1em 1.8em;
-}
-
-.blog-masonry.one-column .item {
-  width: 100%;
-  padding: 0 1em 2em;
-}
-
-.blog-masonry.two-columns .item {
-  width: 50%;
-  float: left;
-  padding: 0 1em 2em;
-}
-
-.blog-masonry.three-columns .item {
-  width: 33.333333%;
-  float: left;
-  padding: 0 1em 2em;
-}
-
-.blog-card {
-  display: block;
-  position: relative;
-  padding: 0;
-  background: #444;
-}
-
-.blog-card .post-image {
-  width: 100%;
-  margin: 0;
-}
-
-.blog-card .media-block {
-  overflow: hidden;
-}
-
-.blog-card .media-block img {
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-
-.blog-card .media-block:hover img {
-  transform: scale(1.1);
-}
-
-.blog-card .post-without-f-image {
-  padding-bottom: 46.875%;
-  width: 100%;
-  background-color: #f5f5f5;
-}
-
-.blog-card .post-info {
-  padding: 1em 1.4em 1.4em;
-  border: 1px solid #444;
-  border-top: 0;
-}
-
-.blog-card .blog-item-title {
-  margin: 5px 0 0 0;
-}
-
-.blog-card .post-meta {
-  padding: 1em;
-  margin: 0;
-}
-
-.blog-card .category a {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background: #fff;
-  padding: 2px 7px;
-  line-height: 1.2em;
-  font-size: 11px;
-  color: #222;
-  z-index: 3;
-}
-
-.blog-card .post-date {
-  display: inline-block;
-  color: #aaa;
-  font-size: 11px;
-  line-height: 1.1em;
-  font-weight: 300;
-}
-
-.blog-card .media-block {
-  position: relative;
-}
-
-.sticky-badge {
-  position: absolute;
-  background-color: #fff;
-  right: 10px;
-  top: 10px;
-  font-size: 12px;
-  padding: 0;
-  width: 18px;
-  height: 18px;
-  text-align: center;
-  line-height: 18px;
-  color: #888;
-  z-index: 3;
-}
-
-.blog-card .media-block a .mask {
-  position: absolute;
-  background: #4f565e;
-  background: rgba(0,0,0,.12);
-  display: inline-block;
-  font-family: 'Linearicons-Free';
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  top: 0;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.blog-card .media-block a .mask:after {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin: -22px 0 0 -22px;
-  width: 44px;
-  line-height: 44px;
-  font-size: 44px;
-  text-align: center;
-  content: "\e828";
-  color: #fff;
-}
-
-.blog-card .media-block:hover a .mask {
-  visibility: visible;
-  opacity: 1;
-}
-
-.blog-card ul.category li a {
-  color: #888;
-  font-size: 12px;
-  font-weight: 300;
-}
-
-.blog-card .post-meta .item, .post-meta .item a {
-  color: #a6a6a6;
-} */
-/* --- End of Blog --- */
-
-
 
 /* --- Detailed Portfolio Page --- */
 .page-ajax-loaded {
@@ -2513,7 +2270,6 @@ blockquote {
 }
 
 
-
 @media only screen and (max-width: 768px) {
   .portfolio-grid figure {
     width: 50%;
@@ -2638,135 +2394,8 @@ blockquote {
 }
 
 
-
 /* ============================================================================= 
-9. Pricing verwijder
-============================================================================= */
-/* Pricing */
-/* .fw-pricing .fw-package {
-  background-color: #333;
-  border: 2px solid #444;
-  border-radius: 15px;
-  padding: 30px 30px;
-  margin-bottom: 10px;
-  text-align: center;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.fw-pricing .fw-package-wrap.highlight-col .fw-package {
-  -webkit-transform: translateY(-5px);
-  -ms-transform: translateY(-5px);
-  -o-transform: translateY(-5px);
-  transform: translateY(-5px);
-  -webkit-box-shadow: 0 7px 12px rgba(0, 0, 0, .12);
-  -moz-box-shadow: 0 7px 12px rgba(0, 0, 0, .12);
-  -o-box-shadow: 0 7px 12px rgba(0, 0, 0, .12);
-  box-shadow: 0 7px 12px rgba(0, 0, 0, .12);
-}
-
-.fw-pricing .fw-package:hover,
-.fw-pricing .fw-package-wrap.highlight-col .fw-package:hover {
-  -webkit-transform: translateY(-9px);
-  -ms-transform: translateY(-9px);
-  -o-transform: translateY(-9px);
-  transform: translateY(-9px);
-  -webkit-box-shadow: 0 18px 24px rgba(0, 0, 0, .15);
-  -moz-box-shadow: 0 18px 24px rgba(0, 0, 0, .15);
-  -o-box-shadow: 0 18px 24px rgba(0, 0, 0, .15);
-  box-shadow: 0 18px 24px rgba(0, 0, 0, .15);
-} */
-
-/* verwijder .fw-pricing */
-
-/* .fw-pricing .fw-package-wrap.highlight-col .fw-heading-row span {
-  position: relative;
-  display: inline-block;
-}
-
-.fw-pricing .fw-package-wrap.highlight-col .fw-heading-row span:after {
-  content: '';
-  height: 2px;
-  margin-top: 0;
-  background-color: #09aeea;
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  right: 0;
-}
-
-.fw-pricing .fw-pricing-row {
-  padding: 30px 0 10px;
-}
-
-.fw-pricing .fw-pricing-row span {
-  display: block;
-  line-height: 1;
-  color: #f5f5f5;
-  font-size: 42px;
-}
-
-.fw-pricing .fw-pricing-row small {
-  color: #aaa;
-  display: block;
-}
-
-.fw-pricing .fw-default-row {
-  padding: 5px 0;
-  font-size: 14px;
-}
-
-.fw-pricing .fw-button-row {
-  padding: 10px 0 20px;
-}
-
-.fw-pricing .fw-price-icon-no:before {
-    content: "\f068";
-    color: #e87878;
-}
-
-.fw-pricing .fw-price-icon-yes:before {
-    content: "\f058";
-    color: #ade878;
-} */
-
-/* table */
-/* .fw-table table {
-  width: 100%;
-  border: 1px solid #eee;
-  font-size: .875em;
-}
-
-.fw-table table tr,
-.fw-table table tr.heading-row {
-  border-bottom: 1px solid #eee;
-}
-
-.fw-table table tr:not(.heading-row):last-child {
-  border-bottom: 0;
-}
-
-.fw-table table th {
-  padding: 7px 12px;
-  border-right: 1px solid #eee;
-}
-
-.fw-table table td {
-  padding: 7px 12px;
-  border-right: 1px solid #eee;
-}
-
-.fw-table table td:last-child {
-  border-right: 0;
-} */
-
-
-
-/* ============================================================================= 
-10. Updates
+9. Updates
 ============================================================================= */
 
 /* v1.1 */
@@ -2783,52 +2412,6 @@ blockquote {
   background-repeat: no-repeat;
   z-index: -1;
 }
-
-/* verwijderen
-.vcentered {
-  vertical-align: middle;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  display: -ms-flexbox;
-  -ms-flex-pack: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
-  -webkit-box-align: center;
-  -moz-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
-}
-
-.vcentered .row {
-  width: 100%;
-} */
 
 .title-block {
   position: relative;
@@ -2954,4 +2537,3 @@ blockquote {
     font-size: 18px;
   }
 }
-
