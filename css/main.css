@@ -1093,19 +1093,18 @@ textarea.form-control, textarea.form-control:focus {
 
 
 .timeline-second-style .left-part {
-  width: 30%;
+  width: 85%;
   display: table-cell;
-  padding-right: 25px;
   min-height: 100%;
-  text-align: right;
+  text-align: left;
   vertical-align: top;
 }
 
 .timeline-second-style .right-part {
-  width: 70%;
+  width: 97%;
   display: table-cell;
   padding-left: 25px;
-  padding-right: 15px;
+  padding-right: 25px;
   vertical-align: top;
 }
 
@@ -1117,7 +1116,7 @@ textarea.form-control, textarea.form-control:focus {
 .timeline-second-style .divider {
   position: absolute;
   top: 0;
-  left: 30%;
+  left: 1.2%;
   bottom: 0;
   width: 1px;
   background-color: #444;
